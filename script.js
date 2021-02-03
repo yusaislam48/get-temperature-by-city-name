@@ -15,6 +15,7 @@ function getWeather(){
             document.getElementById('locationName').innerText = data.name;
             document.getElementById('tempValue').innerText = tempValue;
             document.getElementById('description').innerText = data.weather[0].description;
+            // document.getElementById('icon').src = "https://openweathermap.org/img/wn/09d@2x.png";
         })
 
         .catch(error => {
